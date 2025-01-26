@@ -75,7 +75,7 @@
 </head>
 <body>
     <div class="container" id="mainContent">
-        <img src="https://images.typeform.com/images/q8cN9iQvumLK/image/default-firstframe.png" alt="BUMA Logo" class="logo">
+        <img src="<?= base_url('assets/img/logo_buma_tabang.png') ?>" alt="BUMA Logo" class="logo">
         <h2 style="text-align:center;">Kalkulator Speed BUMA IPR</h2>
         <div class="form-group">
             <label for="capHauler">Type Hauler:</label>
@@ -120,12 +120,12 @@
             <p><b>Speed Seharusnya (km/h): <span id="resultSpeedSeharusnya"></span></b></p>
         </div>
         <hr>
-        <div class="responsive-iframe">
+        <!-- <div class="responsive-iframe">
             <iframe src="https://drive.google.com/file/d/1zOaE-7foVROGE4sXeTuN__KeMfgSDGmq/preview" frameborder="0" allowfullscreen title="TableSpeed"></iframe>
         </div>
         <div class="responsive-iframe">
             <iframe src="https://drive.google.com/file/d/16CpyUrIYi-aUxahdfD5wrcrLYvWL2lX4/preview" frameborder="0" allowfullscreen title="FixTime"></iframe>
-        </div>
+        </div> -->
         <div style="text-align:center; font-size:12px; margin-top:20px;">
             <b>© 2025 - Buma IPR</b>
         </div>
